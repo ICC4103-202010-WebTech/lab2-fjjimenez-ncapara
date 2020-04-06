@@ -1,3 +1,3 @@
 class EventVenue < ApplicationRecord
-  has_many :event_information
+  belongs_to :event_information,optional: true
 end
